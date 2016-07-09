@@ -1,0 +1,5 @@
+---
+- hosts: database
+  tasks:
+  
+  - yum: name=postgresql-server state=installed
